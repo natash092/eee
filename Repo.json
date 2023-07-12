@@ -1,0 +1,14 @@
+{
+	"META": {
+		"repoName": "Idk Repo",
+		"repoIcon": "https://usescarlet.com/favicon.png"
+	},
+	"Games": [{
+		"name": "SW-roblox",
+		"version": "1.0",
+		"down": "https://ipogo.app/download/ipogo-2.9.8.ipa",
+		"category": "Hacked Games",
+		"description": "With iPogo you get a full set of tools to help you be the best. iPogo is a Simple, Powerful and Intuitive App.",
+		"bundleID": "com.nianticlabs.pokemongo",
+		"appstore": "com.nianticlabs.pokemongo"
+	},
