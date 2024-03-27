@@ -1,1 +1,24 @@
+// script.js
+const puppeteer = require('puppeteer');
 
+(async () => {
+  // Launch a headless browser
+  const browser = await puppeteer.launch();
+
+  // Open a new page
+  const page = await browser.newPage();
+
+  // Navigate to the website
+  await page.goto('https://example.com');
+
+  // Your JavaScript code goes here
+  await page.evaluate(() => {
+    // Your JavaScript code to be executed on the website
+    console.log('Executing JavaScript code on the website...');
+    // Example: Click a button with ID "myButton"
+    document.getElementById('myButton').click();
+  });
+
+  // Close the browser
+  await browser.close();
+})();
